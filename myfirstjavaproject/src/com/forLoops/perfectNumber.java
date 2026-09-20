@@ -23,7 +23,7 @@ public class perfectNumber {
 	   static boolean isPerfect(int n) {
 		boolean status =false;
 		int sum =0;
-        for(int i=1;i<=100;i++) {
+        for(int i=1;i<=n/2;i++) {
 			if (n%i == 0) {
 				sum =sum +i;
 			}
