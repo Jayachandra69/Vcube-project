@@ -50,7 +50,6 @@ class Admin extends User{
 	
 }
 
-
 public class OnlineLearningPlatform {
 
 	public static void main(String[] args) {
@@ -69,6 +68,5 @@ public class OnlineLearningPlatform {
 		System.out.println("\n-----------ADMIN-------------");
 		aa.DisplayDetails();
 		aa.managePLatform();
-
 	}
 }
