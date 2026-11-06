@@ -32,8 +32,7 @@ class BikeDelivery extends Delivery{
 		System.out.println("The Distance is :" + distance + " km");
 		System.out.println("The Type of Delivery : Bike Delivery ");
 		System.out.println("The amount calculated for this order is : " + charge);
-	}
-		
+	}	
 }
 
 class CycleDelivery extends Delivery{
@@ -52,7 +51,6 @@ class CycleDelivery extends Delivery{
 		System.out.println("The Type of Delivery : Cycle Delivery ");
 		System.out.println("The amount calculated for this order is : " + charge);
 	}
-	
 }
 
 class ExpressDelivery extends Delivery{
@@ -71,7 +69,6 @@ class ExpressDelivery extends Delivery{
 		System.out.println("The Type of Delivery : Express Delivery ");
 		System.out.println("The amount calculated for this order is : " + charge);
 	}
-	
 }
 
 public class FoodDelivery {
@@ -88,5 +85,4 @@ public class FoodDelivery {
 		System.out.println("\n************************************************");
 		d3.CalculateDeliveryCharge();
 	}
-
 }
