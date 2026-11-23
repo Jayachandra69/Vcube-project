@@ -6,7 +6,7 @@ public class TestDsa_12 {
 
 		int arr[] = {1,-2,3,4,-5,9,-4};
 		int currentSum = 0;
-		int max = Integer.MIN_VALUE;// 2147483648
+		int max = Integer.MIN_VALUE;//-2147483648
 		
 		for(int i =0;i<arr.length;i++) {
 			currentSum = currentSum + arr[i];
